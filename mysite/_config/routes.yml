@@ -4,6 +4,7 @@ After: framework/routes#coreroutes
 ---
 Director:
   rules:
+    'courses//$Action/$ID/$Name': 'CourseController'
     'teams//$Action/$ID/$Name': 'TeamController'
     'player/': 'PlayerController'
     '': 'HomeController'
