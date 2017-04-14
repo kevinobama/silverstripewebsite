@@ -1,3 +1,4 @@
+?flush=1
 ## Overview
 
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:

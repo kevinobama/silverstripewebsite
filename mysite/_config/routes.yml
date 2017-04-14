@@ -1,0 +1,9 @@
+---
+Name: mysiteroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'teams//$Action/$ID/$Name': 'TeamController'
+    'player/': 'PlayerController'
+    '': 'HomeController'
