@@ -1,5 +1,9 @@
 http://silverstripelocalhost/teams/?flush=1
 clear cache
+
+/admin/pages/add/ =>CMSPageAddController 
+public function AddForm()
+
 ## Overview
 
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:
